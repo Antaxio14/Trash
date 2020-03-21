@@ -1,8 +1,8 @@
-name: Trash
+name: Fondre
 main: Mev\Trash
 version: 1.0.0
-author: Mev
+author: Antaxio
 api: 3.0.0
 commands:
-  trash:
+  fondre:
     description: Open a trash for drop your shit
