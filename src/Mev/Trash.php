@@ -33,6 +33,15 @@ class Trash extends PluginBase implements Listener {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->Info(C::GREEN. "Trash Enabled!");
 	}
+
+    public function onInteract(PlayerInteractEvent $e){
+
+        $player = $e->getPlayer();
+        $b = $e->getBlock();
+        $id = $this->cfg->get("id");
+        $meta = $this->cfg-
+         }
+    }
 	
 	public function closeInventory(Player $player) {
 		$block1 = Block::get(Block::AIR);
